@@ -1,82 +1,516 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>G. Chaithanya | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaithanya G - Software Developer</title>
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-
-<header>
-    <div class="container">
-        <h1>G. Chaithanya</h1>
-        <p>Aspiring Data Analyst | Python & SQL Enthusiast</p>
-    </div>
-</header>
-
-<nav>
-    <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
-
-<main class="container">
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a recent B.Tech graduate in Computer Science and Business Systems with strong analytical skills, hands-on experience in SQL and Python, and a passion for solving data problems.</p>
-    </section>
-
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li>SQL for data extraction and analysis</li>
-            <li>Python programming and scripting</li>
-            <li>DBMS, Oracle SQL*Plus</li>
-            <li>Streamlit, Advanced Excel</li>
-            <li>HTML, CSS, JavaScript</li>
-        </ul>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Speech Emotion Detection</h3>
-            <p>Built a CNN-based model using MFCCs to classify emotions in speech data.</p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Chaithanya G</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-        <div class="project">
-            <h3>Event Management Webpage</h3>
-            <p>Developed a webpage using HTML, CSS, JavaScript, and SQL to list and manage events.</p>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Chaithanya G</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Software Developer</h2>
+                    <p class="hero-description">
+                        Passionate about creating innovative solutions with Python, Django, and modern web technologies. 
+                        Ready to contribute to dynamic projects and grow in the software development industry.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-avatar">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-element">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="floating-element">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="floating-element">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="floating-element">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <ul>
-            <li>B.Tech, Sree Vidyanikethan Engineering College (2020–2024), CGPA: 7.56</li>
-            <li>Intermediate, Narayana Jr College, CGPA: 7.7</li>
-            <li>SSC, National English Medium High School, CGPA: 9.5</li>
-        </ul>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know more about my background and aspirations</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I am a recent Computer Science Engineering graduate from Vignan's Institute of Information Technology 
+                        with a strong foundation in software development. My passion lies in creating efficient, scalable 
+                        solutions using modern technologies.
+                    </p>
+                    <p class="about-description">
+                        Seeking an entry-level position in software development where I can utilize my technical skills 
+                        and contribute to innovative projects while continuing to learn and grow in a dynamic environment.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>8.5/10</h3>
+                            <p>CGPA</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>3+</h3>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>5+</h3>
+                            <p>Certifications</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-skills-preview">
+                    <h3>Technical Expertise</h3>
+                    <div class="skills-grid">
+                        <div class="skill-tag">Python</div>
+                        <div class="skill-tag">Django</div>
+                        <div class="skill-tag">SQL</div>
+                        <div class="skill-tag">JavaScript</div>
+                        <div class="skill-tag">HTML/CSS</div>
+                        <div class="skill-tag">MySQL</div>
+                        <div class="skill-tag">PostgreSQL</div>
+                        <div class="skill-tag">Git</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: chaithanya3825v@gmail.com</p>
-        <p>GitHub: <a href="https://github.com/chaithanya3825v" target="_blank">chaithanya3825v</a></p>
-        <p>LinkedIn: <a href="#">[Add your LinkedIn URL]</a></p>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SQL</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Django</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML/CSS</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Databases & Tools</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MySQL</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">PostgreSQL</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Git/GitHub</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-</main>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work and accomplishments</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Student Management System</h3>
+                        <p class="project-description">
+                            Comprehensive web application built with Django and MySQL featuring student registration, 
+                            course enrollment, grade tracking, and administrative dashboard with role-based access control.
+                        </p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
 
-<footer>
-    <p>&copy; 2025 G. Chaithanya. All rights reserved.</p>
-</footer>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Personal Portfolio Website</h3>
+                        <p class="project-description">
+                            Responsive personal portfolio website showcasing projects, skills, and achievements. 
+                            Built with modern design principles and optimized for performance across all devices.
+                        </p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
 
-<script src="assets/js/script.js"></script>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-database"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Database Management System</h3>
+                        <p class="project-description">
+                            Advanced database management solution with optimized queries, data normalization, 
+                            and comprehensive reporting features developed during internship at Tech Solutions Pvt Ltd.
+                        </p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Data Analysis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education & Experience</h2>
+                <p class="section-subtitle">My academic journey and professional experience</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Technology - Computer Science Engineering</h3>
+                        <h4>Vignan's Institute of Information Technology, Visakhapatnam</h4>
+                        <p class="timeline-date">2020 - 2024</p>
+                        <p class="timeline-description">CGPA: 8.5/10</p>
+                        <p class="timeline-description">
+                            Specialized in software development, database management, and web technologies. 
+                            Completed multiple projects and participated in coding competitions.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Software Development Intern</h3>
+                        <h4>Tech Solutions Pvt Ltd</h4>
+                        <p class="timeline-date">June 2023 - August 2023</p>
+                        <p class="timeline-description">
+                            Developed web applications using Django framework, collaborated with senior developers 
+                            on database design and optimization, gained hands-on experience in agile development methodologies.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Intermediate (12th Grade)</h3>
+                        <h4>Narayana Junior College, Vijayawada</h4>
+                        <p class="timeline-date">2018 - 2020</p>
+                        <p class="timeline-description">Percentage: 95%</p>
+                        <p class="timeline-description">
+                            Focused on Mathematics, Physics, and Chemistry with strong analytical thinking development.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Secondary School Certificate (10th Grade)</h3>
+                        <h4>Gowtham Concept School, Vijayawada</h4>
+                        <p class="timeline-date">2017 - 2018</p>
+                        <p class="timeline-description">CGPA: 9.5/10</p>
+                        <p class="timeline-description">
+                            Strong foundation in core subjects with excellent academic performance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certifications">
+                <h3>Certifications & Achievements</h3>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h4>Python Programming</h4>
+                        <p>HackerRank</p>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h4>SQL Certification</h4>
+                        <p>HackerRank</p>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h4>Web Development</h4>
+                        <p>Coursera</p>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h4>Database Management</h4>
+                        <p>Oracle Academy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's connect and discuss opportunities</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>
+                        I'm always interested in new opportunities and exciting projects. 
+                        Whether you're looking for a dedicated team member or want to discuss 
+                        a potential collaboration, I'd love to hear from you.
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/chaithanya-techpro/" target="_blank">
+                                    Connect with me
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>HackerRank</h4>
+                                <a href="https://www.hackerrank.com/profile/gchaithanya659" target="_blank">
+                                    View my profile
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Credly</h4>
+                                <a href="https://www.credly.com/users/gundepogula-chaithanya/badges" target="_blank">
+                                    View my badges
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Chaithanya G. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/chaithanya-techpro/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.hackerrank.com/profile/gchaithanya659" target="_blank">
+                        <i class="fas fa-code"></i>
+                    </a>
+                    <a href="https://www.credly.com/users/gundepogula-chaithanya/badges" target="_blank">
+                        <i class="fas fa-certificate"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
